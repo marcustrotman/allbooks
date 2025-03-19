@@ -4,11 +4,11 @@
 name: Workflow de integração continua
 
 on:
-    pull_request:
+   pull_request:
     branches: [ "main" ]
 
 jobs:
-  build:
+  testes:
 
     runs-on: ubuntu-latest
 
